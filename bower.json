@@ -1,0 +1,24 @@
+{
+  "name": "foxslider",
+  "title": "FoxSlider",
+  "version": "1.0.0-alpha",
+  "homepage": "https://www.foxslider.com/",
+  "authors": [
+    "Bhagwat Singh Chouhan"
+  ],
+  "description": "FoxSlider Core is a jQuery Plugin with complete implementation of a full page slider.",
+  "keywords": [
+    "FoxSlider",
+    "Slider"
+  ],
+  "license": "GPLv3",
+  "ignore": [
+    ".gitignore",
+    "gruntfile.js",
+    "package.json"
+  ],
+  "main": "dist/foxslider.js",
+  "dependencies": {
+    "jquery": "~2.2.*"
+  }
+}

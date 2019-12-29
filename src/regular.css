@@ -1,0 +1,131 @@
+.fx-slider-regular {
+  position: relative;
+  width: 100%;
+  margin: 0px auto;
+  overflow: hidden;
+  height: 100%;
+}
+
+.fx-slider-regular .slides-wrap {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.fx-slider-regular .slide, .fx-slider-regular .wrap-slide-content, .fx-slider-regular .slide-content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.fx-slider-regular .wrap-slide-content {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-position: 50% 50% 9 !important;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.fx-slider-regular .wrap-slide-content .slide-content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.fx-slider-regular .wrap-slide-content .slide-content .fxs-header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.fx-slider-regular .wrap-slide-content .slide-content .fxs-content {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #ECEDF0;
+  font-family: clear-sans-reg, Helvetica, sans-serif;
+  font-size: 1.5em;
+  width: 75%;
+  padding: 50px;
+  margin: 0px auto;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.fx-slider-regular .wrap-slide-content .slide-content .fxs-footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.fx-slider-regular .control {
+  color: #2B3442;
+  cursor: pointer;
+  font-weight: bold;
+  height: 80px;
+  width: 48px;
+  position: relative;
+  top: 45%;
+  background-image: url("../images/slider-arrow.png");
+  background-repeat: none;
+  background-position: 0px 0px;
+}
+
+.fx-slider-regular .control-left {
+  float: left;
+  left: 20px;
+  background-position: 0px 80px;
+}
+
+.fx-slider-regular .control-left:hover {
+  background-position: 0px 0px;
+}
+
+.fx-slider-regular .control-right {
+  float: right;
+  right: 20px;
+  background-position: -48px 80px;
+}
+
+.fx-slider-regular .control-right:hover {
+  background-position: -48px 0px;
+}
+
+.fx-slider-regular .bullets {
+  position: absolute;
+  bottom: 70px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+}
+
+.fx-slider-regular .bullets .bullet {
+  width: 16px;
+  height: 16px;
+  color: white;
+  border-radius: 9px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-top: 3px;
+  display: inline-block;
+  background-image: url("../images/slider-bullet.png");
+  background-position: -16px 0px;
+}
+
+.fx-slider-regular .bullets .bullet:hover {
+  background-position: 0px 0px;
+}
+
+.fx-slider-regular .bullets .bullet.active {
+  background-position: 0px 0px;
+}

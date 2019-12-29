@@ -1,0 +1,65 @@
+.fx-slider {
+	/* slider */
+}
+
+.fx-slider .slides-wrap {
+	/* Wrapper to wrap all the slides */
+	z-index: 10;
+}
+
+.fx-slider .slides-wrap .slide {
+	/* Slide with/without background/texture */
+	z-index: 10;
+}
+
+.fx-slider .slides-wrap .slide .wrap-slide-content {
+	/* Slide content with/without background/texture */
+	z-index: 10;
+}
+
+.fx-slider .slides-wrap .slide .wrap-slide-content .slide-content {
+	/* Content wrapper with/without background/texture */
+	z-index: 20;
+}
+
+.fx-slider .slides-wrap .slide .wrap-slide-content .texture {
+  z-index: 15;
+}
+
+.fx-slider .slides-wrap .slide .wrap-slide-content .slide-content .fxs-header {
+	/* Slide header */
+}
+
+.fx-slider .slides-wrap .slide .wrap-slide-content .slide-content .fxs-content {
+	/* Slide content */
+}
+
+.fx-slider .slides-wrap .slide .wrap-slide-content .slide-content .fxs-footer {
+	/* Slide footer */
+}
+
+.fx-slider .controls {
+	/* controls wrapper */
+}
+
+.fx-slider .control {
+	/* control */
+	z-index: 100;
+}
+
+.fx-slider .control.control-left {
+	/* left control */
+}
+
+.fx-slider .control.control-right {
+	/* right control */
+}
+
+.fx-slider .bullets {
+	/* bullets wrapper */
+	z-index: 50;
+}
+
+.fx-slider .bullets .bullet {
+	/* bullet */
+}
